@@ -1,5 +1,5 @@
 '''
- *  $Id: SConstruct, 2014-02-28 23:51:36 chi $
+ *  $Id: SConstruct, 2014-03-07 13:22:40 chi $
  *  Author(s):
  *    Chi WANG (chiwang@mail.ustc.edu.cn) 23/09/2013
  *----------------------------------------------------------

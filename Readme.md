@@ -1,5 +1,5 @@
 
-        Project:    controlFunctionOfParentClass
+Project:    use boostpython in kernel of DMPSW
 >--------------------------------------------
 
 Note:
@@ -10,6 +10,13 @@ Note:
     does run.py script could control the class Aderive??
 
     we can use this way to control all DAMPE software to work !!!
+
+How to run
+-------------
+    1.  compile whole, do:
+        scons
+    2.  run job, do:
+        ./DmpRun.py
 
 Compilation:
 -------------
@@ -54,11 +61,4 @@ How to use Cscope and Ctags? It help your coding more efficiency.
 
     2.  run: valgrind [valgrind-options] your-prog [your-prog-options]
 
-
-How to run
--------------
-    1.  compile whole, do:
-        scons
-    2.  run job, do:
-        ./DmpRun.py
 

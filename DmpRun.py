@@ -11,5 +11,5 @@ import libDmpCore as dmpCore
 dmpCore.Simulation()
 
 print "an other run..."
-dmpCore.PathManager.SetPath(os.environ['HOME']+'/Geometry')
+dmpCore.PathManager.SetPath(os.environ['HOME']+'/Geometry')  # more functions: where to read(write) data, phase(BT2012, final?), where to read connector files
 dmpCore.Simulation()

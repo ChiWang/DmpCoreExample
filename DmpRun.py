@@ -8,7 +8,7 @@
 import os
 import libDmpCore as dmpCore
 
-dmpCore.dmpSimulation()
+dmpCore.Simulation()
 
 print "an other run..."
 dmpCore.PathManager.SetPath(os.environ['HOME']+'/Geometry')

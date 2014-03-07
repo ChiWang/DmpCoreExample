@@ -1,5 +1,5 @@
 /*
- *  $Id: binding.cc, 2014-03-07 13:33:33 chi $
+ *  $Id: binding.cc, 2014-03-07 13:43:56 chi $
  *  Author(s):
  *    Chi WANG (chiwang@mail.ustc.edu.cn) 07/03/2014
 */
@@ -21,7 +21,7 @@
 BOOST_PYTHON_MODULE(libDmpCore){
   using namespace boost::python;
   using namespace DmpCore;
-  def("dmpSimulation",simulationMain);
+  def("Simulation",simulationMain);
 
   class_<DmpVDataManager,boost::noncopyable>("PathManager",no_init)
     .def("SetPath",&DmpVDataManager::SetPath)

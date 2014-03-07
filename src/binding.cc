@@ -20,8 +20,8 @@
 
 BOOST_PYTHON_MODULE(libDmpCore){
   using namespace boost::python;
-  using namespace DmpCore;
-  def("Simulation",simulationMain);
+//  using namespace DmpCore;
+  def("Simulation",DmpCore::simulationMain);
 
   class_<DmpVDataManager,boost::noncopyable>("PathManager",no_init)
     .def("SetPath",&DmpVDataManager::SetPath)
